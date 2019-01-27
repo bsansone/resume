@@ -7,185 +7,7 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     />
-    <style type="text/css">
-      @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
-
-      @page {
-        size: letter portrait;
-        margin: 0;
-      }
-
-      * {
-        box-sizing: border-box;
-      }
-
-      body {
-        background: #efefef;
-        margin: 0;
-        font-family: "Lato", sans-serif;
-        font-size: 100%;
-        font-weight: 300;
-        line-height: 1.3;
-        color: rgba(36, 43, 51, 1);
-        hyphens: auto;
-      }
-
-      h1 {
-        font-size: 2em;
-        line-height: 1.25;
-      }
-
-      h2 {
-        font-size: 1.625em;
-        line-height: 1.15384615;
-      }
-
-      h3 {
-        font-size: 1.375em;
-        line-height: 1.13636364;
-      }
-
-      h4 {
-        font-size: 1.125em;
-        line-height: 1.11111111;
-      }
-
-      h5 {
-        font-size: 0.875em;
-        line-height: 1.08585858;
-      }
-
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      p {
-        margin: 0;
-      }
-
-      main {
-        background: white;
-        border: 1px solid #cdcdcd;
-        width: 21cm;
-        height: 27.7cm;
-        display: block;
-        margin: 0 auto;
-      }
-
-      main > header,
-      main > article {
-        margin: 0.6in;
-        margin-top: 0.3in;
-        margin-bottom: 0;
-      }
-
-      header {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-      }
-
-      ul,
-      dl,
-      dd,
-      dt {
-        margin: 0;
-        padding: 0;
-      }
-
-      .bold {
-        font-weight: 700;
-      }
-
-      .normal {
-        font-weight: 500;
-      }
-
-      .list-unstyled {
-        list-style: none;
-      }
-
-      #title {
-        border-left: 4px solid #f08080;
-        padding-left: 8px;
-      }
-
-      #title h2,
-      #title h3 {
-        font-weight: 300;
-      }
-
-      #title h2 {
-        font-size: 1.375em;
-      }
-
-      #info ul li {
-        color: rgba(36, 43, 51, 0.55);
-        font-size: 0.85em;
-      }
-
-      #summary {
-        position: relative;
-      }
-
-      main > article > h3 {
-        color: #f08080;
-        text-transform: uppercase;
-        font-size: 0.625em;
-        margin-bottom: 0.05in;
-      }
-
-      main > article > section > h4 {
-        font-size: 1em;
-      }
-
-      .date {
-        color: rgba(36, 43, 51, 0.55);
-        display: block;
-        font-size: 0.625em;
-        margin-top: 0.05in;
-      }
-
-      .company,
-      .school {
-        margin-top: 0.15in;
-      }
-
-      .company > h4 > span,
-      .school > h4 > span {
-        font-weight: 300;
-      }
-
-      .company-summary {
-        margin-top: 0.15in;
-      }
-
-      .company h5 {
-        margin-top: 0.15in;
-        margin-bottom: 0.15in;
-      }
-
-      .company-projects {
-        background-color: #f9f9f9;
-        border-radius: 8px;
-        padding: 12px 16px;
-      }
-
-      .company-projects dt {
-        font-size: 0.875em;
-      }
-
-      .company-projects dd {
-        margin-top: 0.05in;
-        margin-bottom: 0.2in;
-      }
-
-      .company-projects dd:last-child {
-        margin-bottom: 0;
-      }
-    </style>
+    <link rel="stylesheet" href="./assets/css/master.css" />
   </head>
   <body>
     <main>
@@ -208,9 +30,9 @@
       <article id="summary">
         <p>
           Front end developer with a passion for creating and designing websites
-          to bring a better experience to users. Strong understanding of
-          technology, great eye for detail and flexible in fast-paced work
-          environments.
+          and user interfaces to bring a better experience to everyone. Strong
+          understanding of technology, great eye for detail and flexible in
+          dynamic environments.
         </p>
       </article>
       <article id="experience">
@@ -225,8 +47,7 @@
             through the engineering team and was the go-to person for any HTML
             and CSS advice. Starting at the company as a Front End Developer
             intern and then being promoted to a Software Developer during my
-            first year, I was quickly able to build a strong foundation and
-            focus on refining my interest in design.
+            first year.
           </p>
           <h5 class="bold">Company Projects:</h5>
           <dl class="company-projects">
@@ -235,26 +56,26 @@
               Maintained and updated an internal processing tool which employees
               used to document and authenticate product that came through our
               systems. Initially developed by the head dev which I then took
-              over and became the sole mainanter after becoming familiar with
-              the codebase. Built with React, Flux, and Bootstrap.
+              over and eventually became the sole maintainer.
             </dd>
             <dt class="normal">Company Website</dt>
             <dd>
               Helped rebuild eCommerce site from Shopify platform into custom
               solution using React, Redux, Restify, AWS Solutions (DynamoDB,
-              Elasticsearch, Cognito), and Stripe Payments. Developed dynamic
-              homepage for the marketing team to control via Contentful.
-              Additionally began development of a React Native port using common
-              files to share Redux actions and reducers across both apps.
+              Elasticsearch, Cognito), and Stripe Payments. Developed a
+              dynamically generated homepage that could be controlled via
+              Contentful CMS. Additionally began development of a React Native
+              port using common files to share Redux actions and reducers across
+              both apps.
             </dd>
             <dt class="normal">Consignor Portal</dt>
             <dd>
-              Migrated Salesforce user portal to standalone React/Redux
+              Migrated a Salesforce user portal to standalone React/Redux
               application that allowed the user to edit account information,
-              communicate with their account manager and view information about
-              all the product they have consigned with the company. Grabbed data
-              from the users account in Salesforce and authenicated via a secure
-              token passed from our main company website.
+              view and interact with all the product they have consigned with
+              the company. Grabbed data from the users account in Salesforce and
+              authenicated via a secure token passed from our main company
+              website.
             </dd>
           </dl>
         </section>
@@ -272,6 +93,21 @@
           <h4>College of DuPage, <span>Associates of Science</span></h4>
           <span class="date">Aug 2012 — May 2014</span>
         </section>
+      </article>
+      <article id="skills">
+        <h3>Skills</h3>
+        <ul class="list-unstyled">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Webpack</li>
+          <li>Node</li>
+          <li>Git</li>
+          <li>NoSQL</li>
+          <li>SQL</li>
+        </ul>
       </article>
     </main>
   </body>

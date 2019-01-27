@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+
+@page {
+  size: letter portrait;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+  line-height: 1.3;
+  color: rgba(36, 43, 51, 1);
+  hyphens: auto;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615;
+}
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364;
+}
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111;
+}
+
+h5 {
+  font-size: 0.875em;
+  line-height: 1.08585858;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0;
+}
+
+main {
+  background: white;
+  border: 1px solid #cdcdcd;
+  width: 21cm;
+  height: 27.7cm;
+  display: block;
+  margin: 0 auto;
+}
+
+main > header,
+main > article {
+  margin: 0.6in;
+  margin-top: 0.3in;
+  margin-bottom: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+ul,
+dl,
+dd,
+dt {
+  margin: 0;
+  padding: 0;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.normal {
+  font-weight: 500;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+#title {
+  border-left: 4px solid #f08080;
+  padding-left: 8px;
+}
+
+#title h2,
+#title h3 {
+  font-weight: 300;
+}
+
+#title h2 {
+  font-size: 1.375em;
+}
+
+#info ul li {
+  color: rgba(36, 43, 51, 0.55);
+  font-size: 0.85em;
+}
+
+#summary {
+  position: relative;
+}
+
+main > article > h3 {
+  color: #f08080;
+  text-transform: uppercase;
+  font-size: 0.625em;
+  margin-bottom: 0.05in;
+}
+
+main > article > section > h4 {
+  font-size: 1em;
+}
+
+.date {
+  color: rgba(36, 43, 51, 0.55);
+  display: block;
+  font-size: 0.625em;
+  margin-top: 0.05in;
+}
+
+.company,
+.school,
+#skills ul {
+  margin-top: 0.15in;
+}
+
+.company > h4 > span,
+.school > h4 > span {
+  font-weight: 300;
+}
+
+.company-summary {
+  margin-top: 0.15in;
+}
+
+.company h5 {
+  margin-top: 0.15in;
+  margin-bottom: 0.15in;
+}
+
+.company-projects {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.company-projects dt {
+  font-size: 0.875em;
+}
+
+.company-projects dd {
+  margin-top: 0.05in;
+  margin-bottom: 0.2in;
+}
+
+.company-projects dd:last-child {
+  margin-bottom: 0;
+}
+
+#skills ul {
+  display: flex;
+}
+
+#skills ul li {
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  color: rgba(36, 43, 51, 0.55);
+  font-size: 0.65em;
+  font-weight: bold;
+  padding: 5px 10px;
+  margin-right: 8px;
+}
