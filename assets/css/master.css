@@ -3,6 +3,8 @@
 @page {
   size: letter portrait;
   margin: 0;
+  /* page-break-after: always;
+  page-break-inside: avoid; */
 }
 
 *,
@@ -59,8 +61,8 @@ p {
 main {
   background: white;
   border: 1px solid #cdcdcd;
-  width: 21cm;
-  height: 27.7cm;
+  width: 22cm;
+  height: 28cm;
   display: block;
   margin: 0 auto;
 }
@@ -72,7 +74,7 @@ main > article {
   margin-bottom: 0;
 }
 
-header {
+main > header {
   display: flex;
   align-items: center;
   justify-content: space-between;
