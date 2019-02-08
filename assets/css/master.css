@@ -194,3 +194,39 @@ main > article > section > h4 {
   padding: 5px 10px;
   margin-right: 6px;
 }
+
+#pdf-download {
+  align-items: center;
+  background-color: white;
+  border-radius: 24px;
+  bottom: 20px;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.2),
+    0 6px 10px 0 rgba(0, 0, 0, 0.14), 0 1px 18px 0 rgba(0, 0, 0, 0.12);
+  color: #f08080;
+  display: inline-flex;
+  font-size: 0.625em;
+  font-weight: 500;
+  height: 36px;
+  justify-content: center;
+  max-width: 175px;
+  padding: 0 20px;
+  position: fixed;
+  right: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+    opacity 15ms linear 30ms, transform 0.27s cubic-bezier(0, 0, 0.2, 1) 0ms,
+    -webkit-box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1),
+    -webkit-transform 0.27s cubic-bezier(0, 0, 0.2, 1) 0ms;
+  width: auto;
+}
+
+#pdf-download:hover {
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2),
+    0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+#pdf-download i.fa-file-pdf {
+  font-size: 1.325em;
+  margin-left: 6px;
+}
