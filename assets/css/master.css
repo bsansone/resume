@@ -230,3 +230,10 @@ main > article > section > h4 {
   font-size: 1.325em;
   margin-left: 6px;
 }
+
+@media print {
+  .no-print,
+  .no-print * {
+    display: none !important;
+  }
+}
