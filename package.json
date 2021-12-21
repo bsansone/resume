@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Resume for Brandon Sansone",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsansone/resume.git"
+  },
+  "keywords": [],
+  "author": "Brandon Sansone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bsansone/resume/issues"
+  },
+  "homepage": "https://github.com/bsansone/resume#readme",
+  "devDependencies": {
+    "parcel": "^2.0.1"
+  }
+}
