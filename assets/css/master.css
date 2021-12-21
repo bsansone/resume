@@ -106,7 +106,7 @@ dt {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 #title {
