@@ -70,7 +70,7 @@ main {
 main > header,
 main > article {
   margin: 0.6in;
-  margin-top: 0.3in;
+  margin-top: 0.25in;
   margin-bottom: 0;
 }
 
@@ -99,6 +99,14 @@ dt {
 
 .list-unstyled {
   list-style: none;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.hidden {
+  display: none;
 }
 
 #title {
@@ -163,18 +171,16 @@ main > article > section > h4 {
 }
 
 .company-projects {
-  background-color: #f9f9f9;
-  border-radius: 8px;
   padding: 12px 16px;
 }
 
-.company-projects dt {
+.company-projects ul {
   font-size: 0.875em;
 }
 
-.company-projects dd {
+.company-projects li {
   margin-top: 0.05in;
-  margin-bottom: 0.2in;
+  margin-bottom: 0.075in;
 }
 
 .company-projects dd:last-child {
@@ -183,6 +189,7 @@ main > article > section > h4 {
 
 #skills ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 #skills ul li {
@@ -193,6 +200,7 @@ main > article > section > h4 {
   font-weight: bold;
   padding: 5px 10px;
   margin-right: 6px;
+  margin-bottom: 6px;
 }
 
 #pdf-download {

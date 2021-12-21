@@ -14,7 +14,7 @@
       <header>
         <section id="title">
           <h1>Brandon Sansone</h1>
-          <h2>Front End Developer</h2>
+          <h2>Front-end Engineer</h2>
         </section>
         <section id="info">
           <ul class="list-unstyled">
@@ -29,71 +29,61 @@
       </header>
       <article id="summary">
         <p>
-          Front-end developer with a passion for creating and designing websites
-          and user interfaces to bring a better experience to everyone. Strong
-          understanding of technology, great eye for detail and flexible in
-          dynamic environments.
+          Front-end engineer with a passion for creating and designing websites, 
+          web/mobile applications and user interfaces to bring a better experience 
+          to everyone. Strong understanding of technology, great eye for detail and 
+          flexible in dynamic environments.
         </p>
       </article>
       <article id="experience">
         <h3>Experience</h3>
         <section class="company">
-<!--           <h4>Fortinet, <span>Senior Software Development Engineer</span></h4>
-          <span class="date">Dec 2020 — PRESENT</span>
-          <p class="company-summary">TODO</p>
-          <h5 class="bold">Company Projects:</h5>
-          <dt class="normal">TODO</dt>
-            <dd>TODO</dd>
-            <dd>TODO</dd>
-          </dt>
-          <h4>Panopta, <span>Software Engineer</span></h4>
+          <h4>Panopta (acquired by Fortinet in Dec 2020), <span>Senior Software Development Engineer</span></h4>
           <span class="date">Mar 2019 — Dec 2020</span>
-          <p class="company-summary">TODO</p>
-          <h5 class="bold">Company Projects:</h5>
-          <dt class="normal">TODO</dt>
-            <dd>TODO</dd>
-            <dd>TODO</dd>
-          </dt> -->
+          <ul class="company-projects">
+            <li>
+              Refactored legacy jQuery, Jinja and VueJS (v1) front-end pages to more up-to-date 
+              single page app esque VueJS (v2) pages.
+            </li>
+            <li>
+              Authored a NativeScript Vue mobile application for viewing active incidents that 
+              communicated with a Python REST API and delivered alerts via Firebase Push Notifications.
+              Developed for both iOS and Android.
+            </li>
+            <li>
+              Contributed to early stages of a front-end design system and VueJS component library built 
+              with the Storybook tool. Collaborated directly with the product design team.
+            </li>
+            <li>
+              Built out complex multi-step onboarding flows in VueJS as single page apps. Utilizing the 
+              browsers History API for navigation. Incrementally saved state and polled for async data 
+              with a Python backend.
+            </li>
+          </ul>
           <h4>Luxury Garage Sale, <span>Software Developer</span></h4>
           <span class="date">Oct 2016 — Mar 2019</span>
-          <p class="company-summary">
-            Primarily doing front-end development and a small amount of back-end
-            work at a growing fashion startup. I was the go-to person for all
-            design advice related to web content that was produced through the
-            engineering team and helped keep the team update with modern HTML
-            and CSS best practices. Starting at the company as a Front End
-            Developer Intern and then being promoted to a Software Developer
-            during my first year.
-          </p>
-          <h5 class="bold">Company Projects:</h5>
-          <dl class="company-projects">
-            <dt class="normal">Intake App</dt>
-            <dd>
-              Updated and maintained a internal tool which employees used to
-              record and authenticate product that came through our processing
-              system. Initially developed by the head dev which I then took over
-              and eventually became the sole maintainer.
-            </dd>
-            <dt class="normal">Company Website</dt>
-            <dd>
-              Helped rebuild eCommerce site from Shopify platform into custom
-              solution using React, Redux, Restify, AWS Solutions (DynamoDB,
-              Elasticsearch, Cognito), and Stripe Payments. Developed a
-              dynamically generated homepage that could be managed via
-              Contentful CMS. Contributed to the early stages of development of
-              a React Native port of our eCommerce site using common files to
-              share Redux actions and reducers across both apps.
-            </dd>
-            <dt class="normal">Consignor Portal</dt>
-            <dd>
-              Migrated a Salesforce user portal to standalone React/Redux
+          <ul class="company-projects">
+            <li>
+              Rebuilt ecommerce site from Shopify platform into custom server-side 
+              solution using ReactJS, Redux, Restify, AWS Solutions (DynamoDB,
+              Elasticsearch, Cognito), and Stripe Payments. Developed a homepage 
+              that was managed via Contentful CMS. Contributed to the early stages 
+              of development for a React Native port of our ecommerce site using 
+              common files to share Redux actions and reducers across both apps.
+            </li>
+            <li>
+              Migrated a Salesforce user portal to standalone ReactJS and Redux
               application that allowed the user to edit account information,
-              view and interact with all the product they have consigned with
-              the company. Grabbed data from the users account in Salesforce and
-              authenicated via a secure token passed from our main eCommerce
-              site.
-            </dd>
-          </dl>
+              view and interact with all their inventory. Built backend REST API
+              that wrapped a Salesforce data store which communicated to the front 
+              end.
+            </li>
+            <li>
+              Contributed to and maintained a internal ReactJS application which displayed 
+              a unique interface for each employee department. Helped maintain a NodeJS REST 
+              API that interfaced with the front end.
+            </li>
+          </ul>
         </section>
       </article>
       <article id="education">
@@ -105,30 +95,24 @@
           </h4>
           <span class="date">Aug 2014 — May 2016</span>
         </section>
-        <section class="school">
-          <h4>College of DuPage, <span>Associates of Science</span></h4>
-          <span class="date">Aug 2012 — May 2014</span>
-        </section>
       </article>
       <article id="skills">
         <h3>Skills &amp; Tools</h3>
         <ul class="list-unstyled">
-          <li>HTML</li>
+          <li>HTML5</li>
           <li>CSS/SCSS</li>
-          <li>JavaScript</li>
+          <li>JavaScript/TypeScript</li>
+          <li>NodeJS</li>
           <li>Python</li>
-          <li>React</li>
-          <li>Redux</li>
-          <li>Vue</li>
-          <li>Webpack</li>
-          <li>Node</li>
+          <li>ReactJS/React Native</li>
+          <li>VueJS</li>
+          <li>NativeScript</li>
           <li>NoSQL</li>
           <li>SQL</li>
-          <li>Jinja</li>
-          <li>Liquid</li>
+          <li>REST</li>
         </ul>
       </article>
-      <a id="pdf-download" class="no-print" href="./resume.pdf" download>
+      <a id="pdf-download" class="no-print hidden" href="./resume.pdf" download>
         View/Save as PDF <i class="fas fa-file-pdf"></i>
       </a>
     </main>
