@@ -4,6 +4,7 @@
   "description": "Resume for Brandon Sansone",
   "source": "index.html",
   "scripts": {
+    "build-pdf": "electron-pdf index.html Resume_Brandon-Sansone.pdf -e",
     "start": "parcel",
     "build": "parcel build"
   },
@@ -11,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/bsansone/resume.git"
   },
-  "keywords": [],
+  "keywords": ["Brandon Sansone", "resume", "developer", "engineer", "front-end"],
   "author": "Brandon Sansone",
   "license": "ISC",
   "bugs": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/bsansone/resume#readme",
   "devDependencies": {
+    "electron-pdf": "^15.0.0",
     "parcel": "^2.0.1"
   }
 }

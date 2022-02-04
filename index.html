@@ -10,10 +10,25 @@
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     />
-    <link rel="stylesheet" href="./assets/css/master.css" />
+    <link rel="stylesheet" href="./assets/css/paper.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <style>
+      @page {
+        size: letter portrait;
+      }
+    </style>
+    <script>
+      var eventEmitInterval = setInterval(function () {
+        document.body.dispatchEvent(new Event('view-ready'))
+      }, 50)
+
+      document.body.addEventListener('view-ready-acknowledged', function(){
+        clearInterval(eventEmitInterval)
+      });
+    </script>
   </head>
-  <body>
-    <main>
+  <body class="letter">
+    <main class="sheet">
       <header>
         <section id="title">
           <h1>Brandon Sansone</h1>
@@ -96,9 +111,7 @@
           <span class="date">Dec 2018 — <span class="uppercase">present</span></span>
           <ul class="company-projects">
             <li>
-              Web and mobile social network application for connecting collegiate
-              gamers with their classmates and surrounding schools for events,
-              tournaments and more.
+              Web and mobile social network application.
             </li>
             <li>NextJS rendered front end authenticated via Firebase.</li>
             <li>
@@ -134,6 +147,9 @@
           <li>REST</li>
         </ul>
       </article>
+      <a id="pdf-download" class="no-print" href="./Resume_Brandon-Sansone.pdf" download>
+        View/Save as PDF <i class="fas fa-file-pdf"></i>
+      </a>
     </main>
   </body>
 </html>

@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
 
-@page {
-  size: letter portrait;
-  margin: 0;
-  /* page-break-after: always;
-  page-break-inside: avoid; */
-}
-
 *,
 *::before,
 *::after {
@@ -14,14 +7,19 @@
 }
 
 body {
-  background: #efefef;
-  margin: 0;
   font-family: "Lato", sans-serif;
   font-size: 98%;
   font-weight: 300;
   line-height: 1.3;
   color: rgba(36, 43, 51, 1);
   hyphens: auto;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility;
+  text-decoration-skip: ink;
 }
 
 h1 {
@@ -56,15 +54,6 @@ h4,
 h5,
 p {
   margin: 0;
-}
-
-main {
-  background: white;
-  border: 1px solid #cdcdcd;
-  width: 22cm;
-  height: 28cm;
-  display: block;
-  margin: 0 auto;
 }
 
 main > header,
